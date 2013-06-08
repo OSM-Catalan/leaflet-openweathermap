@@ -817,6 +817,77 @@ L.OWM.Utils = {
 	},
 
 	i18n: {
+		ca: {
+			owmlinktitle: 'Detalls a OpenWeatherMap'
+			, temperature: 'Temperatura'
+			, temp_minmax: 'Temp. mín/màx'
+			, wind: 'Vent'
+			, gust: 'Ràfegues'
+			, windforce: 'Força del vent'
+			, direction: 'Direcció'
+			, rain_1h: 'Pluja'
+			, humidity: 'Humitat'
+			, pressure: 'Pressió'
+
+		// weather conditions, see http://openweathermap.org/wiki/API/Weather_Condition_Codes
+			, id200: 'Tempesta amb pluja fina'
+			, id201: 'Tempesta amb pluja'
+			, id202: 'Tempesta amb pluja forta'
+			, id210: 'Light Thunderstorm'
+			, id211: 'Tempesta'
+			, id212: 'Heavy Thunderstorm'
+			, id221: 'Ragged Thunderstorm'
+			, id230: 'Thunderstorm with Light Drizzle'
+			, id231: 'Thunderstorm with Drizzle'
+			, id232: 'Thunderstorm with Heavy Drizzle'
+
+			, id300: 'Light Intensity Drizzle'
+			, id301: 'Plugim'
+			, id302: 'Heavy Intensity Drizzle'
+			, id310: 'Light Intensity Drizzle Rain'
+			, id311: 'Drizzle Rain'
+			, id312: 'Heavy Intensity Drizzle Rain'
+			, id321: 'Shower Drizzle'
+
+			, id500: 'Light Rain'
+			, id501: 'Moderate Rain'
+			, id502: 'Heavy Intensity Rain'
+			, id503: 'Very Heavy Rain'
+			, id504: 'Extreme Rain'
+			, id511: 'Freezing Rain'
+			, id520: 'Light Intensity Shower Rain'
+			, id521: 'Shower Rain'
+			, id522: 'Heavy Intensity Shower Rain'
+
+			, id600: 'Light Snow'
+			, id601: 'Neu'
+			, id602: 'Heavy Snow'
+			, id611: 'Aiguaneu'
+			, id621: 'Shower Snow'
+			, id622: 'Heavy Shower Snow'
+
+			, id701: 'Boirina'
+			, id711: 'Fum'
+			, id721: 'Calitja'
+			, id731: 'Remolins de sorra/pols'
+			, id741: 'Boira'
+			, id751: 'Sorra'
+
+			, id800: 'Cel clar'
+			, id801: 'Few Clouds'
+			, id802: 'Scattered Clouds'
+			, id803: 'Broken Clouds'
+			, id804: 'Overcast Clouds'
+
+			, id900: 'Tornado'
+			, id901: 'Tempesta tropical'
+			, id902: 'Huracà'
+			, id903: 'Fred
+			, id904: 'Calor
+			, id905: 'Vent'
+			, id906: 'Calamarsa'
+		},
+
 		en: {
 			owmlinktitle: 'Details at OpenWeatherMap'
 			, temperature: 'Temperature'
